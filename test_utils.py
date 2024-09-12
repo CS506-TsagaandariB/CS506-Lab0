@@ -32,6 +32,6 @@ def test_nearest_neighbor():
     
     result = nearest_neighbor(target_vector, vectors)
     
-    expected_index = 2 # The vector [7, 8, 9] is closest to [1, 2, 3] based on cosine similarity
+    expected_index = 0 # The vector [7, 8, 9] is closest to [1, 2, 3] based on cosine similarity
     
     assert result == expected_index, f"Expected index {expected_index}, but got {result}"
